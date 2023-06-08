@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>User registration</title>
+  </head>
+  <body>
+    <h1>User registration form</h1>
+    <p>Kindly fill out the form below to complete your registration</p>
+    <form action="">
+      <label for="text">Username:</label>
+      <input type="text" placeholder="e.g Emeka David" id="text" required />
+      <br /><br />
+      <label for="email">Email:</label>
+      <input
+        type="email"
+        placeholder="e.g example@domain.com"
+        id="email"
+        required
+      />
+      <br /><br />
+      <label for="pass">Password:</label>
+      <input
+        type="password"
+        placeholder="Enter your password"
+        id="pass"
+        required
+      />
+      <br /><br />
+      <label for="country">Country:</label>
+      <select name="" id="country">
+        <option value="">Nigeria</option>
+        <option value="">Ghana</option>
+        <option value="">Benin</option>
+        <option value="">Togo</option>
+        <option value="">Cameroon</option>
+      </select>
+      <p>Select your gender:</p>
+      <label for="male">Male</label>
+      <input type="radio" id="male" name="gender">
+      <label for="female">Female</label>
+      <input type="radio" id="female" name="gender">
+      <label for="other">Other</label>
+      <input type="radio" id="other" name="gender">
+      <p>Tick the checkbox below if you agree to our terms and conditions</p>
+      <input type="checkbox" name="" id="" required>
+      <br><br>
+      <input type="submit">
+    </form>
+  </body>
+</html>
